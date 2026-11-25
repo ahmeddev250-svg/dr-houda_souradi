@@ -96,20 +96,6 @@ export const translations = {
           imageKey: 'doctorWhitecoat',
         },
         {
-          id: 'infertilite-couple',
-          title: 'Infertilité du couple',
-          description: 'Bilan diagnostique complet et stratégie thérapeutique coordonnée pour accompagner les couples dans leur projet parental.',
-          tag: 'Fertilité',
-          imageKey: 'doctorScrubs',
-        },
-        {
-          id: 'fecondation-in-vitro',
-          title: 'Fécondation in vitro',
-          description: 'Accompagnement en Assistance Médicalisée à la Procréation (AMP) et protocoles de fécondation in vitro.',
-          tag: 'AMP / FIV',
-          imageKey: 'waitingRoom',
-        },
-        {
           id: 'chirurgie-gynecologique',
           title: 'Chirurgie Gynécologique',
           description: 'Prise en charge médico-chirurgicale des affections gynécologiques avec protocoles modernes et suivi post-opératoire.',
@@ -328,20 +314,6 @@ export const translations = {
           description: 'فحص سريري وتقييم وقائي وتوجيه طبي متخصص للعناية بصحة الثدي.',
           tag: 'صحة الثدي',
           imageKey: 'doctorWhitecoat',
-        },
-        {
-          id: 'infertilite-couple',
-          title: 'عقم الزوجين',
-          description: 'تشخيص شامل وخطة علاجية متكاملة لمواكبة الأزواج في مشروع الإنجاب.',
-          tag: 'الخصوبة',
-          imageKey: 'doctorScrubs',
-        },
-        {
-          id: 'fecondation-in-vitro',
-          title: 'الإخصاب خارج الجسم (FIV)',
-          description: 'مواكبة طبية في المساعدة الطبية على الإنجاب وبروتوكولات التلقيح والإخصاب.',
-          tag: 'المساعدة على الإنجاب',
-          imageKey: 'waitingRoom',
         },
         {
           id: 'chirurgie-gynecologique',

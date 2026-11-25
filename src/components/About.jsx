@@ -1,7 +1,7 @@
 import React from 'react';
 import { GraduationCap, Award, CheckCircle2 } from 'lucide-react';
 import { useLanguage } from './LanguageContext.jsx';
-import consultationImg from '../assets/images/consultation-room.jpg';
+import consultationImg from '../assets/images/doctor-scrubs.jpg';
 
 export default function About() {
   const { t } = useLanguage();
