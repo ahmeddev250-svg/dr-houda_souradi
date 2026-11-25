@@ -18,7 +18,7 @@ export default function Navbar({ onOpenBooking }) {
 
   return (
     <header className="glass-navigation fixed top-0 inset-x-0 z-40">
-      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4 lg:gap-6">
+      <div className="max-w-[90rem] mx-auto px-3.5 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-2 sm:gap-4 lg:gap-6">
         {/* Brand */}
         <a
           href="#home"
@@ -27,13 +27,13 @@ export default function Navbar({ onOpenBooking }) {
           <img
             src={logoImg}
             alt={t.brandName}
-            className="h-14 w-14 sm:h-16 sm:w-16 object-contain rounded-xl bg-white/80 p-1 shadow-sm group-hover:scale-105 transition-transform"
+            className="h-12 w-12 sm:h-16 sm:w-16 object-contain rounded-xl bg-white/80 p-1 shadow-sm group-hover:scale-105 transition-transform shrink-0"
           />
           <div className="min-w-0">
-            <div className="text-lg sm:text-xl font-extrabold text-brand-plum leading-tight whitespace-nowrap">
+            <div className="text-base sm:text-xl font-extrabold text-brand-plum leading-tight whitespace-nowrap">
               {t.brandName}
             </div>
-            <div className="text-xs sm:text-sm font-medium text-brand-teal truncate max-w-[190px] sm:max-w-[260px]">
+            <div className="text-[11px] sm:text-sm font-medium text-brand-teal truncate max-w-[145px] sm:max-w-[260px]">
               {t.brandSub}
             </div>
           </div>
