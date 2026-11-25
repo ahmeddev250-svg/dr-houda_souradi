@@ -111,7 +111,7 @@ export default function AppointmentModal({ isOpen, onClose, initialService = '' 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-slate-900/55 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-slate-900/55"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -122,7 +122,7 @@ export default function AppointmentModal({ isOpen, onClose, initialService = '' 
         onClick={(e) => e.stopPropagation()}
       >
         {/* Sticky Top Header */}
-        <div className="sticky top-0 z-10 flex items-start justify-between gap-4 px-5 py-4 bg-white/95 backdrop-blur-md border-b border-brand-plum/10">
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-4 px-5 py-4 bg-white/95 border-b border-brand-plum/10">
           <div>
             <h3
               id="appointment-modal-title"

@@ -22,18 +22,14 @@
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.76);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 0 8px 32px rgba(110, 39, 82, 0.08);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(110, 39, 82, 0.12);
+  box-shadow: 0 8px 28px rgba(110, 39, 82, 0.08);
   border-radius: 20px;
 }
 
 .glass-navigation {
-  background: rgba(255, 255, 255, 0.86);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid rgba(110, 39, 82, 0.12);
-  box-shadow: 0 4px 24px rgba(110, 39, 82, 0.06);
+  box-shadow: 0 4px 20px rgba(110, 39, 82, 0.06);
 }

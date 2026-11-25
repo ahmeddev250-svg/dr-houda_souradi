@@ -29,10 +29,6 @@ export default function Hero({ onOpenBooking }) {
       id="home"
       className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 overflow-x-clip bg-gradient-to-br from-brand-cream via-white to-brand-roseSoft/50"
     >
-      {/* Subtle decorative orbs */}
-      <div className="pointer-events-none absolute -top-24 -end-24 w-96 h-96 rounded-full bg-brand-rose/15 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 -start-24 w-96 h-96 rounded-full bg-brand-teal/10 blur-3xl" />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Column */}
@@ -141,7 +137,7 @@ export default function Hero({ onOpenBooking }) {
           </div>
 
           {/* Right Column: Doctor Photo + Floating Logo Badge */}
-          <div className="lg:col-span-5 relative mt-2 sm:mt-0">
+          <div className="lg:col-span-5 relative">
             <div className="glass-card p-3 sm:p-4 relative">
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/4.3] bg-brand-roseSoft/40">
                 <img
@@ -155,7 +151,7 @@ export default function Hero({ onOpenBooking }) {
               </div>
 
               {/* Floating Logo Badge */}
-              <div className="glass-card absolute top-2 start-2 sm:-top-4 sm:-start-4 z-10 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center p-1.5 shadow-xl border-2 border-white bg-white/95">
+              <div className="glass-card absolute top-2 start-2 sm:-top-4 sm:-start-4 z-10 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center p-1.5 shadow-xl border-2 border-white bg-white">
                 <img
                   src={logoImg}
                   alt={t.brandName}
